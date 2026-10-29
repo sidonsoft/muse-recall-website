@@ -17,12 +17,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with: { node-version: 22 }
-      - run: npm ci
-      - run: npm run site
+      # The site now lives in sidonsoft/muse-recall (website/). This repo only
+      # publishes a redirect to https://sidonsoft.github.io/muse-recall/.
       - uses: actions/upload-pages-artifact@v3
-        with: { path: dist }
+        with: { path: redirect }
   deploy:
     needs: build
     runs-on: ubuntu-latest

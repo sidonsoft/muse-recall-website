@@ -1,3 +1,8 @@
+> **This site has moved.** It now lives in the [`website/`](https://github.com/sidonsoft/muse-recall/tree/main/website)
+> folder of [sidonsoft/muse-recall](https://github.com/sidonsoft/muse-recall), with this repo's full history,
+> and is published at **[sidonsoft.github.io/muse-recall](https://sidonsoft.github.io/muse-recall/)**.
+> This repo is archived; its Pages site only redirects there.
+
 # Muse Recall — marketing site
 
 The landing page for **[Muse Recall](https://github.com/sidonsoft/muse-recall)** —
