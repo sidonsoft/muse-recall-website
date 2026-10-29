@@ -1,7 +1,7 @@
 name: Pages (static deploy)
 on:
-  push:
-    branches: [deploy-ready]
+  # Manual only until hosting is approved: enabling Pages (source: GitHub Actions)
+  # and running this workflow is the one deliberate act that publishes the site.
   workflow_dispatch:
 permissions:
   contents: read
